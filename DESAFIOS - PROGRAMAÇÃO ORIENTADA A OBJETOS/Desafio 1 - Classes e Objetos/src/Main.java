@@ -2,23 +2,23 @@ public class Main {
     public static void main(String[] args){
         //CRIANDO PERSON
         Person p1 = new Person("Diogo",
-                "Gabriel Rosa Santos",
-                19,
-                "Rua Joaquim Carolino da Silva.",
-                "+5588997267466",
-                "diogog3301@gmail.com");
-        Person p2 = new Person("Raissa",
-                "Stéfany Silva Santos",
-                17,
-                "Sítio Duas Lagoas, Segunda Rua ao Lado do Hotel Brejal.",
-                "+5588997793680",
-                "stefanyraissa165@gmail.com");
-        Person p3 = new Person("Vanderlei",
-                "Santos Frutuoso",
+                "Gabriel",
+                29,
+                "Rua Qualquer",
+                "+5511999999999",
+                "email@email.com");
+        Person p2 = new Person("Jenifer",
+                "Sobrenome",
+                36,
+                "Rua Qualquer",
+                "+5511999599595",
+                "email2@email.com");
+        Person p3 = new Person("Tiago",
+                "Sobrenome 2",
                 31,
-                "Rua Coronel Nicodemos.",
-                "+5588997881708",
-                "vanderlei.adv@gmail.com");
+                "Sitio Qualquer",
+                "+5511991111111",
+                "email3@gmail.com");
 
         //SPEAK
         p1.speak("Olá gente!");
